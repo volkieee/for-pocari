@@ -1,0 +1,133 @@
+
+  
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+
+.container {
+    background-image: url(layered-waves-haikei\ \(1\).png);
+    height: 100vh;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 500%;
+}
+
+.container-ul {
+    background: rgb(131, 58, 180);
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 100vh;
+    height: 50px;
+    margin-left: 450px;
+    padding-top: 10px;
+    gap: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    list-style-type: none;
+    border-radius: 20px;
+    box-shadow: 2px 2px 73px 13px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 2px 2px 73px 13px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 2px 73px 13px rgba(0, 0, 0, 0.75);
+    transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;
+
+}
+
+.container-ul:hover {
+    color: white;
+    background-color: #007BFF;
+    transform: translateY(15px);
+    border-radius: 50px;
+}
+
+.container-li {
+    text-decoration: none;
+    position: relative;
+
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+
+.container-li::after {
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 0;
+    bottom: 0;
+    left: 50%;
+    background-color: #080807;
+    transition: width 0.5s ease, left 0.5s ease;
+}
+
+.container-li:hover::after {
+    width: 100%;
+    left: 0;
+}
+
+img {
+    position: relative;
+    left: -4%;
+    top: -38%;
+width: 750px;
+}
+
+.container-teks {
+    position: relative;
+    top: 55px;
+    padding-left: 20%;
+}
+
+.container-h1 {
+    display: inline-block;
+    border-bottom: 2px solid black;
+    width: 30%;
+    font-size: 25px;
+    position: relative;
+    right: -4%;
+    top: 100px;
+
+}
+
+.container-p {
+    margin: 400px;
+    position: relative;
+    top: -250px;
+    left: -29%;
+    font-size: 20px;
+}
+.container-teks{
+    color:white;
+    background-color: rgba(128, 128, 128, 0.577);
+    backdrop-filter: blur(10px);
+    border-radius: 50px;
+    width: 35%;
+   height: 60%;
+   position: relative;
+   left:60%;
+   top:15%;
+}
+.teks-p{
+    font-size: 35px;
+    border-bottom: 2px solid white;
+    width:229%;
+    text-align: center;
+position: relative;
+left:-131%;    
+}
+.p-teks{
+    justify-content: start;
+    width:1000%;
+    text-align:center;
+    display: flex;
+    font-size: 30px;
+    position: relative;
+    left:-132%;
+    top:30%;
+   
+}
